@@ -1,0 +1,55 @@
+/* CSS for Guess the Number game */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0dd28;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(167, 187, 20);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(21, 49, 207, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(209, 108, 108);
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(17, 187, 235);
+  border-radius: 4px;
+  
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0c00b3;
+}
+
+p#result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+p#score {
+  text-align: center;
+  font-size: 16px;
+}
